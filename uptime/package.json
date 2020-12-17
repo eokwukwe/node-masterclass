@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": " babel-node lib/data.js"
+    "start": " babel-node lib/logs.js"
   },
   "keywords": [],
   "author": "",

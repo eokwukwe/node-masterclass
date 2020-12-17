@@ -1,15 +1,15 @@
+import path from "path";
 import { promises as fs } from "fs";
 
 import Helpers from "./helpers";
 
-/** Class for file crud operations */
+/** Library for storing and editing data */
 class DataOperations {
   /**
    * Create a data operation instance
-   * @param {string} baseDir - The base directory for data storage.
    */
-  constructor(baseDir) {
-    this.baseDir = baseDir;
+  constructor() {
+    this.baseDir = path.join(__dirname, "/../.data");
     this.response = {};
   }
 
